@@ -209,7 +209,7 @@ p {
 .hero-btn {
   display: block;
   border: none;
-  background: var(--brand-color-accent);
+  background-color: var(--brand-color-accent);
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;

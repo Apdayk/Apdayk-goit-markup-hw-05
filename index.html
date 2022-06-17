@@ -61,20 +61,10 @@
       <section class="hero">
         <div class="hero-box container">
           <h1 class="hero-section-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-btn">
+          <button data-modal-open type="button" class="hero-btn">
             <span class="hero-btn-text">Заказать услугу</span>
           </button>
-          <!-- <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, debitis?
-              </p>
-              <button type="button" data-modal-close></button>
-            </div>
-          </div> -->
-        </div>
       </section>
-
       <section class="qualities section">
         <div class="qualities-box container">
           <h2 class="qualities-title">Качества компании</h2>
@@ -428,6 +418,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, debitis?
+              </p>
+              <button type="button" data-modal-close></button>
+            </div>
+          </div>
+        </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
